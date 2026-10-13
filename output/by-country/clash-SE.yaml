@@ -34,16 +34,18 @@ proxies:
       Host: sub.merky.top
 - name: 🇸🇪 SE 03 - xiaohe
   type: vless
-  server: 732051t.se1.h1clayd.click
+  server: 77.110.97.245
   port: 443
-  uuid: ec572cf0-1337-4c51-b4ec-ff2f538c1f4c
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: NqyAfxsF9xeJZi_5itA5VCxaja1ioXjw7xPM_QonKVk
-  servername: 732051t.se1.h1clayd.click
-  client-fingerprint: chrome
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
 proxy-groups:
 - name: PROXIES
   type: select
